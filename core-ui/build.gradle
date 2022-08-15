@@ -1,0 +1,15 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+}
+
+apply from: "../android_common.gradle"
+
+dependencies {
+    implementation libs.androidx.constraintlayout
+
+    implementation libs.material
+
+    testImplementation libs.junit
+    testImplementation libs.androidx.junit
+}

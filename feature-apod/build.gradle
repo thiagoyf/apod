@@ -1,0 +1,36 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+}
+
+apply from: "../android_common.gradle"
+
+dependencies {
+    implementation project(":core-data")
+    implementation project(":core-model")
+    implementation project(":core-ui")
+
+    implementation libs.koin.android
+
+    implementation libs.kotlin.stdlib
+
+    implementation libs.androidx.core.ktx
+    implementation libs.androidx.appcompat
+
+    implementation libs.androidx.constraintlayout
+
+    implementation libs.androidx.lifecycle.viewmodel.ktx
+    implementation libs.androidx.lifecycle.runtime.ktx
+
+    implementation libs.androidx.navigation.fragment.ktx
+    implementation libs.androidx.navigation.ui.ktx
+
+    implementation libs.kotlinx.coroutines.android
+
+    implementation libs.material
+
+    implementation libs.glide
+
+    testImplementation libs.junit
+    testImplementation libs.androidx.junit
+}

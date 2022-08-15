@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.22554347826086957" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.34322916666666664" />
+        <entry key="core-ui/src/main/res/font/font.xml" value="0.26710526315789473" />
+        <entry key="core-ui/src/main/res/font/font_family_poppins.xml" value="0.3734375" />
+        <entry key="core-ui/src/main/res/layout/error_view.xml" value="0.34322916666666664" />
+        <entry key="core-ui/src/main/res/layout/generic_error.xml" value="0.25416666666666665" />
+        <entry key="core-ui/src/main/res/layout/loader_view.xml" value="0.23177083333333334" />
+        <entry key="core-ui/src/main/res/layout/loadgin_layout.xml" value="0.25416666666666665" />
+        <entry key="core-ui/src/main/res/layout/loading_layout.xml" value="0.34322916666666664" />
+        <entry key="core-ui/src/main/res/layout/sample_loader_view.xml" value="0.328125" />
+        <entry key="feature-apod/src/main/res/font/font_family_poppins.xml" value="0.21145833333333333" />
+        <entry key="feature-apod/src/main/res/font/poppins_italic.xml" value="0.2125" />
+        <entry key="feature-apod/src/main/res/layout/fragment_apod.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

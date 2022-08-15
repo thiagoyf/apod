@@ -1,0 +1,41 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+}
+
+apply from: "../android_common.gradle"
+
+android {
+    defaultConfig {
+        applicationId "com.thiagoyf.astronomypictureoftheday"
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+dependencies {
+    implementation project(":feature-apod")
+    implementation project(":core-data")
+    implementation project(":core-network")
+    implementation project(":core-ui")
+
+    implementation libs.androidx.core.ktx
+
+    implementation libs.androidx.appcompat
+
+    implementation libs.androidx.fragment
+    implementation libs.androidx.fragment.ktx
+
+    implementation libs.androidx.constraintlayout
+
+    implementation libs.androidx.navigation.fragment.ktx
+    implementation libs.androidx.navigation.ui.ktx
+
+    implementation libs.material
+
+    implementation libs.koin.android
+
+    implementation libs.junit
+    implementation libs.androidx.junit
+}

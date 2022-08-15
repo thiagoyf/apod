@@ -1,0 +1,41 @@
+<resources>
+    <style name="Theme.AstronomyPictureOfTheDay.H2">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">@dimen/font_h1</item>
+    </style>
+
+    <style name="Theme.AstronomyPictureOfTheDay.Date">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">@dimen/font_normal_text</item>
+    </style>
+
+    <style name="Theme.AstronomyPictureOfTheDay.NormalText">
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textSize">@dimen/font_normal_text</item>
+    </style>
+
+    <style name="Theme.AstronomyPictureOfTheDay.Title" parent="Theme.AstronomyPictureOfTheDay">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">@dimen/font_title</item>
+    </style>
+
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">25dp</item>
+    </style>
+
+    <style name="ShapeAppearance.App.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">25dp</item>
+    </style>
+
+    <style name="ShapeAppearance.App.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">25dp</item>
+    </style>
+
+    <style name="TextAppearance.App.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AstronomyPictureOfTheDay</string>
+
+    <string name="oops">Oops!</string>
+    <string name="generic_error_message">Something went wrong, try again later!</string>
+    <string name="try_again">Try again</string>
+</resources>

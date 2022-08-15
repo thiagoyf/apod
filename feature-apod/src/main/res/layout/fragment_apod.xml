@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ApodFragment">
+
+    <ScrollView
+        android:id="@+id/scrollable_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/apod_date"
+                style="@style/Theme.AstronomyPictureOfTheDay.Date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/default_margin"
+                android:layout_marginTop="@dimen/default_margin"
+                android:textAlignment="textEnd"
+                android:textColor="@color/gray_400"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="01/01/2022" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/apod_title"
+                style="@style/Theme.AstronomyPictureOfTheDay.H2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/default_margin"
+                android:layout_marginTop="@dimen/small_margin"
+                app:layout_constraintTop_toBottomOf="@id/apod_date"
+                tools:text="Title" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/apod_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_margin"
+                android:scaleType="fitCenter"
+                app:layout_constraintTop_toBottomOf="@id/apod_title" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/apod_explanation"
+                style="@style/Theme.AstronomyPictureOfTheDay.NormalText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/default_margin"
+                android:layout_marginTop="@dimen/default_margin"
+                app:layout_constraintTop_toBottomOf="@id/apod_image"
+                tools:text="Explanation" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/apod_copyright"
+                style="@style/Theme.AstronomyPictureOfTheDay.NormalText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_margin"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/apod_explanation"
+                tools:text="Copyright" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <com.thiagoyf.core_ui.LoaderView
+        android:id="@+id/loader_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <com.thiagoyf.core_ui.ErrorView
+        android:id="@+id/error_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+}
+
+apply from: "../android_common.gradle"
+
+android {
+    buildTypes {
+        debug {
+            buildConfigField "String", "NASA_API_KEY", '"' + System.getenv("NASA_API_KEY") + '"'
+        }
+        release {
+            buildConfigField "String", "NASA_API_KEY", '"' + System.getenv("NASA_API_KEY") + '"'
+        }
+    }
+}
+
+dependencies {
+    implementation libs.koin.android
+
+    implementation libs.retrofit
+    implementation libs.converter.gson
+
+    implementation libs.kotlinx.coroutines.android
+
+    testImplementation libs.junit
+    testImplementation libs.androidx.junit
+}
