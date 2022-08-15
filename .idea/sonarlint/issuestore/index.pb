@@ -25,14 +25,10 @@ E
 settings.gradle,0/5/05efc8b1657769a27696d478ded1e95f38737233
 @
 app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
-D
-core-ui/build.gradle,3/a/3ae0a4263c99394950628414c4d85478364f7ded
 G
 core-model/build.gradle,8/0/800820d90362068c6bdf319e3598b722f0933a31
 F
 core-data/build.gradle,5/5/55f4c47c1b1acc7ae643dcc70bbb70b758750030
-I
-core-network/build.gradle,9/f/9f6e8fdc80fcbc824c852cf7ffec33203d26d9fb
 N
 gradle/libraries.versions.toml,9/c/9c8c9f1ff538ab19e134330835128747ffd50f0c
 m
