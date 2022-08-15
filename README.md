@@ -1,4 +1,5 @@
 # How to run apod application
 
-- You should generate your api key in [Nasa Open APIs](https://api.nasa.gov/)
-- Save your generated api key in your path with `NASA_API_KEY` name
+1. You should generate your api key in [Nasa Open APIs](https://api.nasa.gov/)
+2. Save your generated api key in your path with `NASA_API_KEY` name
+  - Alternatively you can replace `NASA_API_KEY` from `build.gradle (:core-network)`
