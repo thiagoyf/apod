@@ -31,8 +31,6 @@ G
 core-model/build.gradle,8/0/800820d90362068c6bdf319e3598b722f0933a31
 F
 core-data/build.gradle,5/5/55f4c47c1b1acc7ae643dcc70bbb70b758750030
-I
-core-network/build.gradle,9/f/9f6e8fdc80fcbc824c852cf7ffec33203d26d9fb
 N
 gradle/libraries.versions.toml,9/c/9c8c9f1ff538ab19e134330835128747ffd50f0c
 m
